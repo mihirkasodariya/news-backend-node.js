@@ -1,0 +1,86 @@
+
+
+
+
+https://medium.com/@aifuture/razorpay-payment-gateway-integration-in-node-js-react-js-6a560740bba7
+
+
+
+
+
+
+==========================================================================================================
+
+name :- weblock2025
+email :-  weblock2025@gmail.com
+password :- Hah4nn_$*@PJk8S
+
+
+https://newsdata.io/documentation/#http_response 
+
+*********** # home ****************** 
+
+|-------------- header -------------|
+logo tag(Home,Latest Stories, Insights,Her Startup, Inspiration, The Review, Podcast, Startup TV, More........) 
+|-------------- Stories-------------|
+      |--------------------|
+      |show image          | 
+      |    by other more...| ==> click this tage and open particular tag information page 
+      |--------------------|
+ 
+|------------- Latest Stories-------|
+
+add Latest Stories slider    more  ==> click this tage and open particular tag page
+  ---| |-----| |-----| |-----|  |---
+<    | |     | |     | |     |  |    >
+  ---| |-----| |-----| |-----|  |--- ==> click this tage and open particular tag information page  
+Insights                     more ==> click this tage and open particular tag page
+       |-----| |-----| |-----|
+<      |     | |     | |     |      >
+       |-----| |-----| |-----| ==> click this tage and open particular tag information page  
+Her Startup                  more ==> click this tage and open particular tag page
+       |-----| |-----| |-----|
+<      |     | |     | |     |      >
+       |-----| |-----| |-----| ==> click this tage and open particular tag information page  
+ same as add header in show all name .....
+
+
+************ particular tag page  *****************
+
+|------------- header --------------|
+
+|--------choose particular tag name -------|
+
+ show news |-----| |-----| |-----|  
+ tag       |     | |     | |     |  ==> click this tage and open particular tag information page 
+           |-----| |-----| |-----|  
+           |-----| |-----| |-----|
+           |     | |     | |     |    
+           |-----| |-----| |-----| 
+           |-----| |-----| |-----|
+           |     | |     | |     |     
+           |-----| |-----| |-----| 
+add more show same as box in pagination 
+
+
+
+*************# particular tag information page  *************
+
+|-------------- header -------------|
+
+|--------------------|more info related
+|show image          |this image--------
+|    by other more...|-----------------
+|--------------------|-----------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+---------------------more ...
+
+
+
+
+
+
+
