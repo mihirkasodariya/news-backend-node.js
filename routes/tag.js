@@ -15,7 +15,7 @@ const { isAuthenticatedUser } = require("../middleware/authMiddleware");
 router.post("/create", isAuthenticatedUser, creatTag);
 
 //getAllTags
-router.get("/all", isAuthenticatedUser, getallTags);
+router.get("/all", getallTags);
 
 // get single Tags
 router.get("/single", isAuthenticatedUser, getsingleTags);
@@ -27,6 +27,6 @@ router.delete("/delete", isAuthenticatedUser, deleteTag);
 router.put("/update", isAuthenticatedUser, updateTags);
 
 // Get tags by category ID
-router.post("/category", isAuthenticatedUser, getTagsByCategory);
+router.post("/category", getTagsByCategory);
 
 module.exports = router;

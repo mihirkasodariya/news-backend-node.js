@@ -23,7 +23,7 @@ router.post(
 router.get("/all", getallCategorys);
 
 // get single Categorys
-router.get("/single", isAuthenticatedUser, getsingleCategorys);
+router.get("/single", getsingleCategorys);
 
 //Delete
 router.delete("/delete", isAuthenticatedUser, deleteCategory);

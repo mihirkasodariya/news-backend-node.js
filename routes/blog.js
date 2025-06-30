@@ -24,7 +24,7 @@ router.post(
 );
 
 //getAllBlogs
-router.get("/all", isAuthenticatedUser, getallBlogs);
+router.get("/all", getallBlogs);
 
 // get single Blogs
 router.get("/single", isAuthenticatedUser, getsingleBlogs);

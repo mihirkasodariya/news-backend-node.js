@@ -22,6 +22,27 @@ module.exports.getPlayer = async (req, res, next) => {
     }
 };
 
+module.exports.updateProfile = async (req, res, next) => {
+    try {
+        const user = req.user;
+        const playerId = user.userId;
+        await User.findByIdAndUpdate(
+            playerId,
+            {
+                ...req.body
+            },
+            { new: false, runValidators: true }
+        );
+        return res.status(200).json({
+            success: true,
+            msg: "Profile updated successfully",
+        });
+    } catch (error) {
+        console.error("Update Profile Error:", error);
+        res.status(500).json({ error: "Internal Server Error" });
+    }
+};
+
 module.exports.alluser = async (req, res, next) => {
     const userData = await User.find();
 
