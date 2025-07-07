@@ -20,7 +20,8 @@ module.exports.creatTag = async (req, res, next) => {
 //get all Tags
 module.exports.getallTags = async (req, res) => {
     try {
-        const Tags = await TagModel.find().sort({ updatedAt: -1 }); // Sorting by updatedAt in descending order;
+        const Tags = await TagModel.find().sort({ updatedAt: -1 }).populate('categoryId');
+
         res.status(200).json({
             success: true,
             Tags,
